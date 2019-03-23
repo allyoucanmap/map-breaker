@@ -3,8 +3,9 @@
 ### mini game made with js and SVG
 ![Preview of the Game displaying world countries in EPSG:4326](./map-breaker-screenshot.png)
 
-demo: 
-demo with geoBonne projection:
+demo: http://www.stefanobovio.com/map-breaker/
+
+demo with geoBonne projection: http://www.stefanobovio.com/map-breaker/?geoBonne
 
 inputs
 
