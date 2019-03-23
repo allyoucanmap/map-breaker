@@ -1,0 +1,37 @@
+{
+  "name": "map-breaker",
+  "version": "1.0.0",
+  "description": "map-breaker",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "clean": "rimraf dist",
+    "compile": "npm run clean && mkdirp ./dist && webpack --config ./webpack.config.js --mode production"
+  },
+  "author": "allyoucanmap",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.2.3",
+    "babel-eslint": "10.0.1",
+    "babel-loader": "8.0.4",
+    "eslint": "5.11.1",
+    "eslint-loader": "2.1.1",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "raw-loader": "1.0.0",
+    "webpack": "4.29.3",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.14",
+    "webpack-parallel-uglify-plugin": "1.1.0"
+  },
+  "dependencies": {
+    "@turf/turf": "5.1.6",
+    "axios": "0.18.0",
+    "chroma-js": "2.0.2",
+    "d3-geo-projection": "2.5.0",
+    "gl-matrix": "2.8.1",
+    "lodash": "4.17.11",
+    "tinycolor2": "1.4.1",
+    "uuid": "3.3.2"
+  }
+}
